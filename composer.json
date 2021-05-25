@@ -1,0 +1,34 @@
+{
+  "name": "codeacious/api-server",
+  "description": "Support for serving a HAL-compliant REST API.",
+  "type": "library",
+  "require": {
+    "codeacious/acl": "^2.0",
+    "codeacious/filesystem": "^1.0",
+    "codeacious/mapper": "^1.0",
+    "codeacious/model": "^1.0",
+    "codeacious/security": "^2.0",
+    "codeacious/stdlib": "^1.0",
+    "laminas-api-tools/api-tools-api-problem": "^1.0",
+    "laminas-api-tools/api-tools-content-negotiation": "^1.0",
+    "laminas/laminas-http": "^2.0",
+    "laminas/laminas-mvc": "^3.0",
+    "laminas/laminas-router": "^3.0",
+    "laminas/laminas-uri": "^2.0",
+    "laminas/laminas-view": "^2.0",
+    "nocarrier/hal": "^0.9.12",
+    "php": "^7.2",
+    "symfony/console": "^5.0",
+    "zircote/swagger-php": "^3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Codeacious\\ApiServer\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-trunk": "2.0.x-dev"
+    }
+  }
+}
