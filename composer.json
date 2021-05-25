@@ -1,6 +1,15 @@
 {
   "name": "codeacious/api-server",
   "description": "Support for serving a HAL-compliant REST API.",
+  "license": "MIT",
+  "homepage": "https://github.com/CodeaciousAU/phplib-api-server",
+  "authors": [
+    {
+      "name": "Glenn Schmidt",
+      "email": "glenn@codeacious.com",
+      "homepage": "https://codeacious.com"
+    }
+  ],
   "type": "library",
   "require": {
     "codeacious/acl": "^2.0",
@@ -28,7 +37,7 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-trunk": "2.0.x-dev"
+      "dev-master": "2.0.x-dev"
     }
   }
 }
